@@ -62,7 +62,7 @@
     <div id="overlay" v-show="loading"></div>
 </template>
 
-<style>
+<style scoped>
     @keyframes spinner {
         to {transform: rotate(360deg);}
     }
